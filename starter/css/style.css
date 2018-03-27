@@ -1,0 +1,42 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+/*
+box sizing test
+
+.div1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue; 
+}
+
+.div2 {
+    width: 300px;
+    height: 100px;    
+    padding: 50px;
+    border: 1px solid red; 
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato"; sans-serif;
+    font-weight: 400:
+    font-size:16px;
+    line-height:1.7;
+    color: #777;
+}
+
+.header {
+    height: 95vh;
+}
+
