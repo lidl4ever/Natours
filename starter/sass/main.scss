@@ -22,6 +22,12 @@ box sizing test
 
 */
 
+
+$color-primary: #7ed56f;
+$color-primary-light: #55c57a;
+$color-primary-dark: #28b485;
+
+
 *,
 *::after,
 *::before {
@@ -50,8 +56,10 @@ body {
     background-image: linear-gradient(
         to right bottom,
         #7ed56f8f,
-        #28b48513),url(../img/hero.jpg);
-    
+        #28b48513),
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8),
+    url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
